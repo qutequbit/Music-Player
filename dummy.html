@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="track-title">
+            Track Title
+        </div>
+        <div id="track-artist">
+            Track Artist
+        </div>
+        <div class="playpausebtn">
+            <button type="button" id="play-pause-btn">
+                <span id="playbtn">play</span>
+                <span id="pausebtn">pause</span>
+            </button>
+        </div>
+    </div>
+</body>
+<script>
+    const playpausebtn = document.getElementById('play-pause-btn');
+    const playbtn = document.getElementById('playbtn');
+    const pausebtn = document.getElementById('pausebtn');
+
+    // let isPlaying = false;
+    // playpausebtn.addEventListener('click', ()=>{
+    //     if(isPlaying){
+
+    //     }
+    // })
+
+    const track = [
+        { title: "Title 1", artist: "Artist 1", src: "/songs/O Sajni Re_320(PagalWorld.com.sb).mp3" }
+    ]
+
+    let audio = new Audio();
+    audio.src = track[0].src;
+    audio.play();
+
+</script>
+
+</html>

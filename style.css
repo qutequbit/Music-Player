@@ -1,0 +1,33 @@
+.container {
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.song-cover {
+    margin: 20px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.name {
+    border: 1px solid black;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+#control {
+    width: 30px;
+    height: 30px;
+}
+
+#control img {
+    width: 100%;
+
+}
